@@ -75,5 +75,6 @@ Tu peux ajouter les routes suivantes :
   * Mise à jour d'une catégorie
   * Effacement d'une catégorie
 * Produits
+  * Sur les routes de création et de mise à jour d'un produit, faire en sorte que son `slug` soit mis à jour automatiquement, en le calculant à partir du titre (possibilité d'utiliser un module comme [slugify]https://www.npmjs.com/package/slugify))
   * Effacement d'un produit
   * Ajouter à la route de lecture de tous les produits la possibilité de la filtrer par catégorie (en passant l'id de celle-ci dans l'URL).
