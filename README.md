@@ -46,7 +46,7 @@ Modélise d'abord sur papier si tu préfères, et sinon dans MySQL, une base de 
 * Les catégories, chaque catégorie ayant un nom
 * Les produits, chaque produit ayant :
   * un nom
-  * un slug : son nom converti en "URL-friendly", par exemple "Lenovo ThinkPad T430 SSD 240Go" deviendra `lenovo-thinkpad-t430-ssd-240go`.
+  * (optionnel) un slug : son nom converti en "URL-friendly", par exemple "Lenovo ThinkPad T430 SSD 240Go" deviendra `lenovo-thinkpad-t430-ssd-240go` (voir [cette explication](https://blog.nicolas.brondin-bernard.com/qu-est-ce-qu-un-slug-et-pourquoi-faut-il-l-utiliser-dans-vos-urls/)).
   * une description
   * un prix
   * une image
